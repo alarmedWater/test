@@ -21,5 +21,14 @@ public  class Main
             mul *= i;
         }
         System.out.println(mul);
+        
+        
+        double reihe = 0;
+        for(int i = 1; i <=10; i++)
+        {
+            reihe += 1/Math.pow(i, 2);
+        }
+        
+        System.out.print(reihe);
     }
 }
